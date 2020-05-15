@@ -23,7 +23,7 @@ export class Confirm extends Component {
         return (
             <MuiThemeProvider>
                 <React.Fragment>
-                    <AppBar title = "Confirm User Data" />
+                    <AppBar title = "Confirm Your User Data Dude" />
                    
                     <List>
                         <ListItem
@@ -52,7 +52,7 @@ export class Confirm extends Component {
                         />
                     </List>
                     <RaisedButton
-                        label = "Continue"
+                        label = "Confirm and Continue"
                         primary = {true}
                         style = {styles.button}
                         onClick = {this.continue}
